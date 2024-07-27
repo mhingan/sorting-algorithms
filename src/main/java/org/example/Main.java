@@ -14,7 +14,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        int[] array = generateRandomArray(1000);
+        int[] array = generateRandomArray(1000000);
 
         // Testăm Bubble Sort
         testSortMethod("BubbleSort", array.clone(), BubbleSort::bubbleSort);
